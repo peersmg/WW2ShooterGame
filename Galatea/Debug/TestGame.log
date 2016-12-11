@@ -1,0 +1,29 @@
+﻿Build started 9/23/2016 2:27:23 PM.
+     1>Project "D:\TestGame\TestGame\TestGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ship.cpp
+         Ship.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TestGame\Debug\TestGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\TestGame\Debug\TestGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TestGame\Debug\TestGame.lib" /MACHINE:X86 Debug\Building.obj
+         Debug\Bullet.obj
+         Debug\camera.obj
+         Debug\entities.obj
+         Debug\ErrorLogger.obj
+         Debug\gamecode.obj
+         Debug\GameObject.obj
+         Debug\gametimer.obj
+         Debug\KeyboardBuffer.obj
+         Debug\mydrawengine.obj
+         Debug\myinputs.obj
+         Debug\mysoundengine.obj
+         Debug\ObjectManager.obj
+         Debug\Shapes.obj
+         Debug\Ship.obj
+         Debug\vector2D.obj
+         Debug\wincode.obj
+         TestGame.vcxproj -> D:\TestGame\Debug\TestGame.exe
+     1>Done Building Project "D:\TestGame\TestGame\TestGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90

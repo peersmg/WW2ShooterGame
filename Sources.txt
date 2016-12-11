@@ -1,0 +1,11 @@
+Player: http://spritebf.smackjeeves.com/comics/1379219/fighter-bomber-worksheet/
+
+Menu Background: http://static.tumblr.com/15106c26daba785834a2a228b4f10884/rf1hszc/aBSn3vkw9/tumblr_static_78y21s1lz80ssk4wgwkc8w0g0.jpg
+
+Buildings: http://spritedatabase.net/file/4532
+
+Backround: http://wallpapersafari.com/animated-pixel-wallpaper/
+
+Thrust Sound: http://freesound.org/people/qubodup/sounds/146770/
+
+Enemies: https://www.spriters-resource.com/arcade/ms2/

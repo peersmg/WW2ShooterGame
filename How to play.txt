@@ -1,0 +1,14 @@
+Controls:
+
+Thrust Upwards 		UP Arrow
+Thrust Forwards 	X key
+Rotate Clockwise	Right Arrow
+Rotate Anticlockwise	Left Arrow
+Shoot 			Z key
+Upgrade			U key
+Pause			ESC key
+
+Instructions:
+
+Shoot, crash and blast your way through as many enemy planes as possible! Gain exp and
+level up to turn into a killing machine.

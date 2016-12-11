@@ -1,0 +1,56 @@
+﻿Build started 12/6/2016 10:40:56 AM.
+     1>Project "D:\Galatea\Galatea\Galatea.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (TestGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ship.cpp
+         Ship.cpp
+     1>d:\galatea\galatea\ship.cpp(69): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\galatea\galatea\ship.cpp(78): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\galatea\galatea\ship.cpp(124): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\galatea\galatea\ship.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\galatea\galatea\ship.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\galatea\galatea\ship.cpp(243): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\galatea\galatea\ship.cpp(252): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\galatea\galatea\ship.cpp(253): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\galatea\galatea\ship.cpp(261): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\galatea\galatea\ship.cpp(278): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\galatea\galatea\ship.cpp(301): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\galatea\galatea\ship.cpp(305): warning C4305: '+=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Galatea\Debug\Galatea.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Galatea\Debug\Galatea.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Galatea\Debug\Galatea.lib" /MACHINE:X86 Debug\Bomb.obj
+         Debug\Building.obj
+         Debug\BuildingCollection.obj
+         Debug\Bullet.obj
+         Debug\BulletEnemy.obj
+         Debug\camera.obj
+         Debug\Enemy.obj
+         Debug\EnemyBullet.obj
+         Debug\EnemyCollection.obj
+         Debug\entities.obj
+         Debug\ErrorLogger.obj
+         Debug\Explosion.obj
+         Debug\gamecode.obj
+         Debug\GameManager.obj
+         Debug\GameObject.obj
+         Debug\gametimer.obj
+         Debug\KeyboardBuffer.obj
+         Debug\Missile.obj
+         Debug\MissileEnemy.obj
+         Debug\MissileLauncher.obj
+         Debug\mydrawengine.obj
+         Debug\myinputs.obj
+         Debug\mysoundengine.obj
+         Debug\ObjectManager.obj
+         Debug\Particle.obj
+         Debug\ParticleEmitter.obj
+         Debug\Shapes.obj
+         Debug\Ship.obj
+         Debug\SoundFX.obj
+         Debug\vector2D.obj
+         Debug\wincode.obj
+         Galatea.vcxproj -> D:\Galatea\Debug\Galatea.exe
+     1>Done Building Project "D:\Galatea\Galatea\Galatea.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01
