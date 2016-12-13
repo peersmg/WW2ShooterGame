@@ -1,0 +1,42 @@
+﻿Build started 13/12/2016 18:50:02.
+     1>Project "D:\Projects\GameEngine Projects\FighterGame\Galatea\Galatea.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\GameEngine Projects\FighterGame\Release\Galatea.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\GameEngine Projects\FighterGame\Release\Galatea.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\GameEngine Projects\FighterGame\Release\Galatea.lib" /MACHINE:X86 /SAFESEH Release\Bomb.obj
+         Release\Building.obj
+         Release\BuildingCollection.obj
+         Release\Bullet.obj
+         Release\BulletEnemy.obj
+         Release\camera.obj
+         Release\Enemy.obj
+         Release\EnemyBullet.obj
+         Release\EnemyCollection.obj
+         Release\entities.obj
+         Release\ErrorLogger.obj
+         Release\Explosion.obj
+         Release\gamecode.obj
+         Release\GameManager.obj
+         Release\GameObject.obj
+         Release\gametimer.obj
+         Release\KeyboardBuffer.obj
+         Release\Missile.obj
+         Release\MissileEnemy.obj
+         Release\MissileLauncher.obj
+         Release\mydrawengine.obj
+         Release\myinputs.obj
+         Release\mysoundengine.obj
+         Release\ObjectManager.obj
+         Release\Particle.obj
+         Release\ParticleEmitter.obj
+         Release\Shapes.obj
+         Release\Ship.obj
+         Release\SoundFX.obj
+         Release\vector2D.obj
+         Release\wincode.obj
+         Generating code
+         Finished generating code
+         Galatea.vcxproj -> D:\Projects\GameEngine Projects\FighterGame\Release\Galatea.exe
+     1>Done Building Project "D:\Projects\GameEngine Projects\FighterGame\Galatea\Galatea.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.34

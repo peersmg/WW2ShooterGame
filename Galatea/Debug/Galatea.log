@@ -1,23 +1,78 @@
-﻿Build started 12/6/2016 10:40:56 AM.
-     1>Project "D:\Galatea\Galatea\Galatea.vcxproj" on node 2 (Build target(s)).
+﻿Build started 13/12/2016 18:45:14.
+     1>Project "D:\Projects\GameEngine Projects\FighterGame\Galatea\Galatea.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (TestGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ship.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bomb.cpp Building.cpp BuildingCollection.cpp Bullet.cpp BulletEnemy.cpp camera.cpp Enemy.cpp EnemyBullet.cpp EnemyCollection.cpp entities.cpp ErrorLogger.cpp Explosion.cpp gamecode.cpp GameManager.cpp GameObject.cpp gametimer.cpp KeyboardBuffer.cpp Missile.cpp MissileEnemy.cpp MissileLauncher.cpp mydrawengine.cpp myinputs.cpp mysoundengine.cpp ObjectManager.cpp Particle.cpp ParticleEmitter.cpp Shapes.cpp Ship.cpp SoundFX.cpp vector2D.cpp wincode.cpp
+         wincode.cpp
+         vector2D.cpp
+         SoundFX.cpp
          Ship.cpp
-     1>d:\galatea\galatea\ship.cpp(69): warning C4305: '+=' : truncation from 'double' to 'float'
-     1>d:\galatea\galatea\ship.cpp(78): warning C4305: '-=' : truncation from 'double' to 'float'
-     1>d:\galatea\galatea\ship.cpp(124): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-     1>d:\galatea\galatea\ship.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>d:\galatea\galatea\ship.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>d:\galatea\galatea\ship.cpp(243): warning C4305: '*=' : truncation from 'double' to 'float'
-     1>d:\galatea\galatea\ship.cpp(252): warning C4305: '*=' : truncation from 'double' to 'float'
-     1>d:\galatea\galatea\ship.cpp(253): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\galatea\galatea\ship.cpp(261): warning C4305: '*=' : truncation from 'double' to 'float'
-     1>d:\galatea\galatea\ship.cpp(278): warning C4305: '*=' : truncation from 'double' to 'float'
-     1>d:\galatea\galatea\ship.cpp(301): warning C4305: '+=' : truncation from 'double' to 'float'
-     1>d:\galatea\galatea\ship.cpp(305): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(69): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(78): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(124): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(243): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(252): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(253): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(261): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(278): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(301): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\ship.cpp(305): warning C4305: '+=' : truncation from 'double' to 'float'
+         Shapes.cpp
+         ParticleEmitter.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\particleemitter.cpp(83): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Particle.cpp
+         ObjectManager.cpp
+         mysoundengine.cpp
+         myinputs.cpp
+         mydrawengine.cpp
+         MissileLauncher.cpp
+         MissileEnemy.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\missileenemy.cpp(76): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Missile.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\missile.cpp(40): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\missile.cpp(42): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         KeyboardBuffer.cpp
+         gametimer.cpp
+         GameObject.cpp
+         GameManager.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\gamemanager.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\gamemanager.cpp(186): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         gamecode.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\gamecode.cpp(324): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\gamecode.cpp(411): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Explosion.cpp
+         Generating Code...
+         Compiling...
+         ErrorLogger.cpp
+         entities.cpp
+         EnemyCollection.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\enemycollection.cpp(46): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\enemycollection.cpp(52): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         EnemyBullet.cpp
+         Enemy.cpp
+         camera.cpp
+         BulletEnemy.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\bulletenemy.cpp(33): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\projects\gameengine projects\fightergame\galatea\bulletenemy.cpp(50): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\bulletenemy.cpp(84): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\bulletenemy.cpp(89): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\bulletenemy.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Bullet.cpp
+         BuildingCollection.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\buildingcollection.cpp(25): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\buildingcollection.cpp(31): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\buildingcollection.cpp(71): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\buildingcollection.cpp(78): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\buildingcollection.cpp(88): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\gameengine projects\fightergame\galatea\buildingcollection.cpp(95): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Building.cpp
+     1>d:\projects\gameengine projects\fightergame\galatea\building.cpp(49): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Bomb.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Galatea\Debug\Galatea.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Galatea\Debug\Galatea.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Galatea\Debug\Galatea.lib" /MACHINE:X86 Debug\Bomb.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\GameEngine Projects\FighterGame\Debug\Galatea.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\GameEngine Projects\FighterGame\Debug\Galatea.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\GameEngine Projects\FighterGame\Debug\Galatea.lib" /MACHINE:X86 Debug\Bomb.obj
          Debug\Building.obj
          Debug\BuildingCollection.obj
          Debug\Bullet.obj
@@ -48,9 +103,9 @@
          Debug\SoundFX.obj
          Debug\vector2D.obj
          Debug\wincode.obj
-         Galatea.vcxproj -> D:\Galatea\Debug\Galatea.exe
-     1>Done Building Project "D:\Galatea\Galatea\Galatea.vcxproj" (Build target(s)).
+         Galatea.vcxproj -> D:\Projects\GameEngine Projects\FighterGame\Debug\Galatea.exe
+     1>Done Building Project "D:\Projects\GameEngine Projects\FighterGame\Galatea\Galatea.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01
+Time Elapsed 00:00:27.07
